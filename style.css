@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif; /* definição da fonte usada */
+
+    line-height: 1.6; /* esse 1.6 serve para definir o espaçamento das palavras*/
+
+    margin: 20px; /* irá definir o espaçamento das bordas da página */
+
+    padding: 20px; /* ajuda também no espaçamento das bordas */
+
+    background-color: #ADD8E6;  /* a cor escolhida para a interface foi azul bebê */
+}
+
+h1 {
+    color: #4169E1;  /* aqui, tanto no h1, h2, h3 e h4, serão a cor de azul médio*/
+}
+
+h2 {
+    color: #4169E1; 
+}
+
+h3 {
+    color: #4169E1; 
+}
+
+h4 {
+    color: #4169E1; 
+}
+
+p {
+    color: #333;
+}
+
+li {
+    color: #555;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white; /* o white foi escolhido para dar um fundo branco na tabela */
+}
+
+th {
+    background-color: #4169E1;  /* fundo azul médio */
+    color: white; /* na estrutura desse cabeçalho, o texto ficará branco */
+    padding: 10px;
+}
+
+td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+b, strong {
+    color: #34495e;  /* Para todas as palavras que estiverem entre os comandos <b> e <strong>, elas ficaram em uma cor chamada azul petroleo */
+}

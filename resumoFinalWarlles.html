@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML e CSS - Fundamentos Front-End</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <h1>Capitulo 1</h1>
+
+    <h2>Resumo do Chapter 1 - Understanding the Basics</h2>
+    <p>O material irá abordar sobre os termos mais importantes do desenvolvimento web e de sua estrutura básica.</p>
+
+    <h3>1.1 Client and Server (cliente e servidor)</h3>
+    <p>As páginas e aplicativos da web possuem partes e elas são a parte do frontend e backend, o frontend é a parte visual, onde o cliete/usuário terá acesso a uma interface gráfica interativa ou não, onde será possivel visualizar o resultado de um código em funcionamento, já o backend é a parte mais interna, executada no servidor, no lado dele, um servidor web garante que o site esteja disponivel e já no lado do cliente o aplicativo da web é acessado por meio de um cliente web, conhecido também por agente de usuário.</p>
+    <p>Basicamente:<br>
+     Nessa parte está sendo explicado que um site é formado por duas partes, a interna e a externa, e ambas as partes estão em funcionamento simultaneo, onde o servidor é crucial para tal funcionamento. Podemos tornar essa situação um funil e filtrar todas as informações.<br>
+     Um URL pode conter:
+   <ul>
+     <li>Protocolo (HTTPs)</li>
+     <li>Host (Dominio)</li>
+     <li>Porta</li>
+     <li>Caminhos</li>
+     <li>Parâmetros(query)</li>
+     <li>Fragmento(#)</li>
+   </ul> 
+
+    <h1>Capítulo 2</h1>
+
+    <p>O CSS (Cascading Style Sheets), HTML (Hypertext Markup Language) e o JavaScript são tecnologias fundamentais de desenvolvimento front-end, onde são executadas diretamente no navegador do usuário.</p>
+
+    <h2>2. Versões do HTML</h2>
+
+    <p>Fazendo uma leve introdução sobre a Linguagem de Marcação de Hipertexto, o HTML é a linguagem de marcação padrão para documentos projetados para serem expostos em navegadores web. Geralmente também chega a ser auxiliada por tecnologias como CSS e também pelo JavaScript. O HTML pode incorporar linguagens de programação como o próprio JavaScript já citado logo acima, afetando o comportamento e até mesmo o conteúdo existente nas páginas da web. Já o CSS que também na grande maioria das vezes se faz presente, define o layout e a aparência da página.</p>
+
+    <h3>2.1 Versões</h3>
+
+    <p>As principais versões do HTML são:</p>
+
+    <ul>
+        <li><b>HTML (1992):</b> Foi a primeira versão proposta por Tim Berners-Lee desde 1982.</li>
+        <li><b>HTML 4.0 (1997):</b> Versão responsável por um marco na web, separando a estrutura do layout (usando CSS) e introduzindo suporte a multimídia, scripts e tabelas.</li>
+        <li><b>XHTML 1.0:</b> Nessa versão houve uma reformulação do HTML onde passaram a existir regras mais rígidas baseadas no XML.</li>
+        <li><b>HTML5 (2014):</b> É a versão mais moderna, responsável por trazer novas funcionalidades e diversas APIs web.</li>
+    </ul>
+
+    <h4>2.1.1 Usando elementos e atributos</h4>
+
+    <p>A estrutura básica do HTML gira em torno de atributos e elementos. Um elemento é formado por uma tag de abertura e uma tag de fechamento, um exemplo é o &lt;h1&gt; abre um título de primeiro nível e &lt;/h1&gt; o fecha. O conteúdo fica entre as duas tags. Já os atributos ficam dentro da tag de abertura e servem para personalizar o elemento, sendo compostos por um nome e um valor separados por sinal de igual (ex.: href="url").</p>
+
+    <h4>2.1.3 Salvando Páginas Web como Documentos HTML</h4>
+
+    <p>Páginas HTML são, no fundo, simples arquivos de texto com extensão .html ou .htm. O processo é direto: onde se escreve o código em um editor, salva-se o arquivo e abre ele no navegador via menu "Abrir arquivo", arrastando o arquivo para a janela do browser ou com um duplo clique. O autor também menciona as Developer Tools do Chrome como um recurso valioso para inspecionar e entender o código de qualquer página.</p>
+
+    <h3>2.2. Títulos, Parágrafos e Outras Formatações de Texto</h3>
+
+    <p>O HTML oferece seis níveis de título, de &lt;h1&gt; (maior) a &lt;h6&gt; (menor). Parágrafos são definidos com &lt;p&gt; e são exibidos com espaçamento automático entre eles. Para formatação de texto, há elementos como &lt;b&gt; (negrito), &lt;i&gt; (itálico), &lt;strong&gt; e &lt;em&gt; (ênfase semântica), &lt;sup&gt; (sobrescrito) e &lt;sub&gt; (subscrito). O &lt;br&gt; insere uma quebra de linha. Para citações, existem &lt;blockquote&gt; (citações longas) e &lt;q&gt; (citações curtas), além de &lt;cite&gt;, &lt;abbr&gt; e &lt;dfn&gt; para referências, abreviações e definições.</p>
+
+    <h4>2.2.1 Criando Listas</h4>
+
+    <p>Existem três tipos de listas em HTML. Listas ordenadas (&lt;ol&gt;) exibem os itens numerados; listas não ordenadas (&lt;ul&gt;) usam marcadores visuais (bullets); e listas de definição (&lt;dl&gt;) são formadas por pares de termo (&lt;dt&gt;) e descrição (&lt;dd&gt;). Em todos os casos, os itens individuais são criados com &lt;li&gt;, exceto nas listas de definição. Também é possível criar listas aninhadas, colocando uma lista dentro de um item de outra, o navegador cuida automaticamente da indentação e da mudança de símbolo.</p>
+
+    <h4>2.2.2 Definindo Links</h4>
+
+    <p>Links são criados com o elemento &lt;a&gt; e o atributo href. O capítulo distingue três tipos: links externos (apontam para outros sites usando URL completa, podendo abrir em nova aba com target="_blank"), links relativos (apontam para páginas do mesmo site sem precisar do domínio, usando caminhos como "../pagina.html" para navegar entre diretórios) e links internos (saltam para uma seção da mesma página usando âncoras, onde o destino recebe um id e o link usa href="#id"). O autor destaca a importância de usar textos de link descritivos e significativos, evitando expressões genéricas como "clique aqui".</p>
+
+    <h4>2.2.3 Incluindo Imagens</h4>
+
+    <p>Imagens são inseridas com o elemento &lt;img&gt;, que é um elemento vazio pois não tem tag de fechamento separada e é controlado apenas por atributos. O atributo src define o caminho ou URL da imagem, enquanto alt fornece um texto alternativo exibido caso a imagem não carregue, essencial para acessibilidade e SEO. Desde o HTML5, é possível agrupar uma imagem com sua legenda usando &lt;figure&gt; e &lt;figcaption&gt;, tornando o conteúdo mais semântico.</p>
+
+    <h4>2.2.4 Estruturando Dados em Tabelas</h4>
+
+    <p>Tabelas são criadas com o elemento &lt;table&gt;. Cada linha é definida por &lt;tr&gt;, as células de dados por &lt;td&gt; e os cabeçalhos por &lt;th&gt;. As colunas não são declaradas explicitamente pois elas surgem da combinação de linhas e células. Para tabelas maiores, os elementos &lt;thead&gt;, &lt;tbody&gt; e &lt;tfoot&gt; organizam a estrutura semanticamente e facilitam a estilização com CSS. Para mesclar células, usa-se colspan (expansão horizontal, entre colunas) e rowspan (expansão vertical, entre linhas).</p>
+
+    <table border="1">
+        <thead>
+            <tr><th>Versão do HTML</th><th>Ano</th><th>Característica principal</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>HTML</td><td>1992</td><td>Primeira versão</td></tr>
+            <tr><td>HTML 4.0</td><td>1997</td><td>Separação estrutura/layout</td></tr>
+            <tr><td>XHTML 1.0</td><td>2000</td><td>Regras baseadas em XML</td></tr>
+            <tr><td>HTML5</td><td>2014</td><td>APIs web e funcionalidades modernas</td></tr>
+        </tbody>
+    </table>
+
+    <h4>2.2.5 Definindo Formulários</h4>
+
+    <p>Formulários são essenciais para capturar dados do usuário e enviá-los ao servidor. São criados com &lt;form&gt; e podem conter campos de texto (input type="text"), senhas (type="password"), e-mail (type="email", com validação automática), botões de rádio (type="radio"), checkboxes (type="checkbox"), listas suspensas (&lt;select&gt; + &lt;option&gt;), áreas de texto (&lt;textarea&gt;) e botão de envio (type="submit"). O elemento &lt;label&gt; associa rótulos aos campos, e &lt;fieldset&gt; + &lt;legend&gt; agrupam seções do formulário. O atributo action define a URL de envio, e method define o método HTTP (geralmente POST).</p>
+
+    <h4>2.2.6 Informações Adicionais</h4>
+
+    <p>O autor fecha a seção 2.2 com uma série de conceitos que aparecem com frequência na prática. Elementos de bloco (como &lt;h1&gt;, &lt;p&gt;, &lt;ul&gt;) sempre começam em nova linha, enquanto elementos inline (como &lt;a&gt;, &lt;b&gt;, &lt;img&gt;) ficam na mesma linha do conteúdo ao redor. O &lt;div&gt; e o &lt;span&gt; são agrupadores genéricos, o primeiro em bloco, o segundo inline que são usados para criar componentes customizados. Caracteres especiais como &lt; e &gt; precisam ser escapados como &amp;lt; e &amp;gt;. O id identifica um elemento de forma única, e o class agrupa elementos para estilização com CSS. Comentários são escritos entre &lt;!-- e --&gt;. O HTML5 também trouxe elementos estruturais semânticos como &lt;header&gt;, &lt;footer&gt;, &lt;nav&gt;, &lt;article&gt;, &lt;aside&gt; e &lt;section&gt;, além de suporte a metadados via &lt;meta&gt; e inclusão de CSS e JavaScript via &lt;link&gt;, &lt;style&gt; e &lt;script&gt;.</p>
+
+    <h3>2.3 Resumo e Perspectiva</h3>
+
+    <h4>2.3.1 Pontos-Chave</h4>
+
+    <p>Logo no final do capítulo, o autor consolida as ideias centrais: HTML é uma linguagem de marcação que define estrutura e semântica através de elementos com tags de abertura e fechamento; atributos passam informações adicionais aos elementos; alguns elementos são vazios e não aceitam conteúdo; arquivos HTML são texto puro; e os elementos mais importantes envolvem títulos, parágrafos, listas, links, imagens, tabelas e formulários.</p>
+
+    
+
+  
+    <h1>Capítulo 3</h1>
+
+    <h2>Resumo do Chapter 3 - Designing Web Pages with CSS</h2>
+
+    <h3>3.1 Introdução</h3>
+
+    <p>O CSS (Cascading Style Sheets) é a linguagem responsável por definir como os elementos HTML de uma página web são visualmente apresentados no navegador. Enquanto o HTML cuida da estrutura e do conteúdo, o CSS cuida da aparência como as cores, fontes, espaçamentos, bordas, posicionamento e muito mais. Sem CSS, uma página web exibe apenas texto e elementos básicos sem nenhum estilo.</p>
+
+    <h4>3.1.1 O Principio do CSS</h4>
+
+    <p>Uma regra CSS é composta por duas partes essenciais: o seletor e a declaração. O seletor indica quais elementos HTML serão afetados pela regra. A declaração, escrita entre chaves, especifica como esses elementos devem ser exibidos, ela é formada por uma propriedade e um valor, separados por dois-pontos e finalizados com ponto e vírgula. Por exemplo, a regra h1 { color: darkblue; } aplica a cor azul escuro a todos os títulos de primeiro nível.</p>
+
+    <h4>3.1.2 Incluindo CSS no HTML</h4>
+
+    <p>Existem três formas de incluir CSS em um documento HTML:</p>
+
+    <ul>
+        <li><b>CSS Externo:</b> código em arquivo separado .css vinculado via &lt;link&gt;. Abordagem mais recomendada, pois permite reutilização e facilita manutenção.</li>
+        <li><b>CSS Interno:</b> regras escritas diretamente no &lt;head&gt; dentro da tag &lt;style&gt;. Útil para estilizar uma única página.</li>
+        <li><b>CSS Inline:</b> estilo definido no atributo style de um elemento. Deve ser evitado na maioria dos casos.</li>
+    </ul>
+
+    <h4>3.1.3 Seletores</h4>
+
+    <p>Os seletores definem quais elementos HTML serão afetados:</p>
+
+    <ul>
+        <li><b>Type selector:</b> Seleciona pela tag (ex.: h1, input)</li>
+        <li><b>Class selector:</b> Seleciona por classe (ex.: .destaque)</li>
+        <li><b>ID selector:</b> Seleciona um elemento único por id (ex.: #menu)</li>
+        <li><b>Universal selector:</b> Seleciona todos os elementos (*)</li>
+        <li><b>Attribute selector:</b> Seleciona por valor de atributo (ex.: [type="text"])</li>
+        <li><b>Sibling selectors:</b> Seleciona irmãos (h1 + p ou h1 ~ p)</li>
+        <li><b>Child / Descendant:</b> Seleciona filhos diretos (body > ul) ou qualquer descendente (body ul)</li>
+    </ul>
+
+
+    <h4>3.1.4 Cascading and Specificity</h4>
+
+    <p>Quando duas ou mais regras se aplicam ao mesmo elemento, prevalece a regra com maior especificidade. A especificidade é calculada por: IDs valem mais que classes e atributos, que valem mais que tipos de elementos. Estilos inline têm a maior especificidade.</p>
+
+    <h4>3.1.5 Inheritance</h4>
+
+    <p>Propriedades como color e font-family são herdadas pelos elementos filhos automaticamente. Já propriedades como border não são herdadas.</p>
+
+    <h3>3.2 Applying Colors and Text Formatting</h3>
+
+    <p>Cores: color (texto) e background-color (fundo). Formatos: nome, hexadecimal, RGB, RGBA, HSL, HSLA.</p>
+
+    <p>Formatação de texto: font-family, font-size, font-style, font-weight, text-transform, text-decoration, line-height, letter-spacing, word-spacing, text-align.</p>
+
+    <h3>3.3 Listas and Tabelas</h3>
+
+    <p>Listas: list-style-type (disco, círculo, quadrado, números, letras, romanos), list-style-image (imagem customizada), list-style-position (outside/inside).</p>
+
+    <p>Tabelas: border, border-collapse: collapse, padding, pseudo-classes como :nth-child(odd) e :nth-child(even) para efeito zebrado.</p>
+
+    <h3>3.4 Understanding the Different Layout Systems</h3>
+
+    <p>Posicionamento: Elementos block-level (ex.: &lt;div&gt;) e inline-level (ex.: &lt;span&gt;). Propriedade position com valores: static, relative, absolute, fixed, sticky, inherit.</p>
+
+    <p>Flexbox: Sistema unidimensional. Ativado com display: flex. Propriedades: flex-direction, justify-content, align-items, flex-grow, flex-shrink, flex-basis, order.</p>
+
+    <p>Grid Layout: Sistema bidimensional (linhas e colunas). Ativado com display: grid. Propriedades: grid-template-columns, grid-template-rows, grid-column, grid-row, gap.</p>
+
+    <h3>3.5 Summary and Outlook</h3>
+
+    <p>Pontos-chave: regra CSS (seletor + declaração), formas de inclusão, seletores, cascata e especificidade, herança, formatação de textos, listas, tabelas, e sistemas de layout (Float, Flexbox e Grid).</p>
+
+    <p>Leituras recomendadas: CSS in Depth, CSS Pocket Reference, CSS: The Definitive Guide, CSS Secrets, The Book of CSS3.</p>
+
+    <p>Tópicos futuros: animações e transições CSS, responsive design com media queries, frameworks CSS (Bootstrap, Materialize), pré-processadores CSS (Sass, Less).</p>
+
+</body>
+</html>
